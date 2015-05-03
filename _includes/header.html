@@ -1,0 +1,23 @@
+<!-- Navigation -->
+<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+<nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand">
+            <a href="/">Home</a>
+        </li>
+        <li>
+            <a href="/about/">About</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Header -->
+<header id="top" class="header" style="{% if page.topimage %}background: url(/img/{{ page.topimage }}) no-repeat center center scroll; {% endif %}">
+    <div class="text-vertical-center">
+        <h1>Виктория Куш</h1>
+        {% if page.title %}<h3>{{ page.title }}</h3>{% endif %}
+        <br>
+        <a href="/#baking" class="btn btn-dark btn-lg">Моя выпечка</a>
+    </div>
+</header>

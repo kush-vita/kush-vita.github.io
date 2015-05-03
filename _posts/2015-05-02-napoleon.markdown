@@ -1,0 +1,8 @@
+---
+layout: cake
+title:  "Наполеон"
+topimage: "cakes/napoleon.jpg"
+permalink: /cake/:title/
+---
+
+Один из любимых тортов мужа
